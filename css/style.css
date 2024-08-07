@@ -1,0 +1,113 @@
+:root{
+    --bg-1:hsl(217, 28%, 15%);
+    --bg-2:hsl(218, 28%, 13%);
+    --bg-3: hsl(219, 30%, 18%);
+    --footer: hsl(216, 53%, 9%);
+    --white: hsl(0, 0%, 100%);
+    --white-hover: hsl(0, 0%, 75%);
+    --cyan:hsl(176, 68%, 64%);
+    --blue:hsl(198, 60%, 50%);
+    --red: hsl(0, 100%, 63%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--bg-1);
+    color: var(--white);
+    font-family: "Raleway", sans-serif;
+}
+p{
+    font-family: "Open sans";
+}
+section.features,
+section.description,
+section.testimonia {
+    background-color: var(--bg-2);
+}
+/*NAV*/
+ul li a.nav-link{
+    color: var(--white);
+}
+ul li a.nav-link:hover{
+    color: var(--white-hover);
+}
+.logo{
+    width: 130px;
+}
+
+/*INTRO*/
+section.intro{
+    text-align: center;
+}
+section.intro img{
+    width: 350px;
+}
+section.intro h1{
+    font-size: 35px !important;
+    font-weight: 700;
+}
+section.intro p{
+    font-size: 95%;
+}
+section.intro button{
+    font-size: 12px;
+    color: var(--white);
+    background: linear-gradient(to right, var(--cyan), var(--blue));
+    transition: background 0.5s;
+}
+section.intro button:hover{
+    background: linear-gradient(to left, var(--cyan), var(--blue));
+}
+.img-curvy{
+    margin-top: -200px !important;
+    width: 100%;
+}
+/*features*/
+section.features h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+section.features p{
+    font-size: 85%;
+}
+section.features article{
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+/*description*/
+section.description h2{
+    font-size: 30px !important;
+    font-weight: 600;
+}
+section.description p{
+    font-size: 85%;
+}
+section.description img.img-description{
+    width: 525px;
+}
+.link-description{
+    color: var(--cyan);
+}
+/**/
+@media(max-width: 735px){
+    .img-curvy{
+        margin-top: -125px !important;
+    }
+    section.features article{
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+}
+@media(max-width: 450px){
+    .logo{
+        width: 70px;
+    }
+    section.intro img{
+        width: 250px;
+    }  
+    .img-curvy{
+        margin-top: -90px !important;
+    }  
+}
