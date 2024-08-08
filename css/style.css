@@ -23,8 +23,12 @@ p{
 }
 section.features,
 section.description,
-section.testimonials {
+section.testimonials,
+section.frmSignIn {
     background-color: var(--bg-2);
+}
+footer{
+    background-color: var(--footer);
 }
 /*NAV*/
 ul li a.nav-link{
@@ -121,7 +125,44 @@ section.testimonials span{
     background-color: var(--bg-3);
     color: var(--white);
 }
+/*form*/
+section.frmSignIn h2{
+    font-size: 27px !important;
+    font-weight: 600;
+}
+section.frmSignIn p{
+    font-size: 85%;
+}
+section.frmSignIn button{
+    font-size: 12px;
+    color: var(--white);
+    background: linear-gradient(to right, var(--cyan), var(--blue));
+    transition: background 0.5s;
+}
+section.frmSignIn button:hover{
+    background: linear-gradient(to left, var(--cyan), var(--blue));
+}
+.div-frm{
+    margin-bottom: -100px;
+    background-color: var(--bg-1);
+    color: var(--white);
+}
+.input-frm::placeholder{
+    padding-left: 20px;
+    font-size: 12px;
+    color: var(--white-hover);
+}
 /**/
+@media(max-width: 992px){
+    div.div-testimonial-2, 
+    div.div-testimonial-3{
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+    .input-frm{
+        padding-bottom: 10px;
+    }
+}
 @media(max-width: 770px){
     .img-curvy{
         margin-top: -125px !important;
@@ -139,6 +180,9 @@ section.testimonials span{
         padding-top: 25px;
         padding-bottom: 0px;
     }
+    .input-frm{
+        padding-bottom: 10px;
+    }
 }
 @media(max-width: 450px){
     .logo{
@@ -154,6 +198,9 @@ section.testimonials span{
     div.div-testimonial-3{
         padding-top: 25px;
         padding-bottom: 0px;
+    }
+    .input-frm{
+        padding-bottom: 10px;
     }
 }
 
