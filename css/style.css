@@ -159,8 +159,8 @@ section.frmSignIn button:hover{
         padding-top: 25px;
         padding-bottom: 0px;
     }
-    .input-frm{
-        padding-bottom: 10px;
+    .div-btn-form{
+        padding-top: 10px;
     }
 }
 @media(max-width: 770px){
@@ -180,8 +180,8 @@ section.frmSignIn button:hover{
         padding-top: 25px;
         padding-bottom: 0px;
     }
-    .input-frm{
-        padding-bottom: 10px;
+    .div-btn-form{
+        padding-top: 10px;
     }
 }
 @media(max-width: 450px){
@@ -199,8 +199,8 @@ section.frmSignIn button:hover{
         padding-top: 25px;
         padding-bottom: 0px;
     }
-    .input-frm{
-        padding-bottom: 10px;
+    .div-btn-form{
+        padding-top: 10px;
     }
 }
 
