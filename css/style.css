@@ -23,7 +23,7 @@ p{
 }
 section.features,
 section.description,
-section.testimonia {
+section.testimonials {
     background-color: var(--bg-2);
 }
 /*NAV*/
@@ -93,9 +93,36 @@ section.description img.img-description{
 .div-img-description{
     text-align: center;
 }
-
+/*testimonials*/
+img.bg-quotes{
+    margin-top: -30px !important;
+    margin-left: -10px !important;
+}
+section.testimonials p{
+    font-size: 85%;
+}
+img.profile{
+    border-radius:150px;
+    height: 40px;
+}
+section.testimonials h5{
+    line-height: 0px !important;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 3px !important;
+}
+section.testimonials span{
+    line-height: 0px !important;
+    font-size: 10px;
+    font-weight: 200;
+    margin-bottom: 0px !important;
+}
+.div-bg{
+    background-color: var(--bg-3);
+    color: var(--white);
+}
 /**/
-@media(max-width: 735px){
+@media(max-width: 770px){
     .img-curvy{
         margin-top: -125px !important;
     }
@@ -107,6 +134,11 @@ section.description img.img-description{
         /*TOP LEFT BOTTOM RIGHT*/
         padding: 40px 25px 0px 25px;
     }
+    div.div-testimonial-2, 
+    div.div-testimonial-3{
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
 }
 @media(max-width: 450px){
     .logo{
@@ -117,5 +149,24 @@ section.description img.img-description{
     }  
     .img-curvy{
         margin-top: -90px !important;
-    } 
+    }
+    div.div-testimonial-2, 
+    div.div-testimonial-3{
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
 }
+
+/*
+@media(max-width: 360px){
+    .logo{
+        width: 50px;
+    }
+    ul li a.nav-link{
+        padding: 5px !important;
+    }
+    nav div.container-fluid{
+        --bs-gutter-x: 0 !important;
+    }
+}
+DESDE 360PX da problema*/
