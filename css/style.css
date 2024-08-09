@@ -155,7 +155,25 @@ section.frmSignIn button:hover{
 /*FOOTER*/
 .footer-div{
     padding-top: 150px;
+    padding-bottom: 100px;
 }
+div.about ul,
+div.info ul{
+    list-style: none;
+    padding-left:0;
+}
+div.about a,
+div.info a,
+div.networks a{
+    text-decoration: none;
+    color: white;
+}
+div.about a:hover,
+div.info a:hover,
+div.networks a:hover{
+    color: var(--white-hover);
+}
+
 /**/
 @media(max-width: 992px){
     div.div-testimonial-2, 
