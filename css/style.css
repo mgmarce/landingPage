@@ -205,6 +205,9 @@ div.networks a:hover{
     .div-btn-form{
         padding-top: 10px;
     }
+    .fab{
+        font-size: 25px;
+    }
 }
 @media(max-width: 450px){
     .logo{
@@ -223,6 +226,9 @@ div.networks a:hover{
     }
     .div-btn-form{
         padding-top: 10px;
+    }
+    div.networks il{
+        font-size: 10px;
     }
 }
 
