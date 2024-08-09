@@ -231,17 +231,3 @@ div.networks a:hover{
         font-size: 10px;
     }
 }
-
-/*
-@media(max-width: 360px){
-    .logo{
-        width: 50px;
-    }
-    ul li a.nav-link{
-        padding: 5px !important;
-    }
-    nav div.container-fluid{
-        --bs-gutter-x: 0 !important;
-    }
-}
-DESDE 360PX da problema*/
